@@ -1,0 +1,32 @@
+{
+  "name": "hand-poser",
+  "version": "1.0.0",
+  "description": "Simple tool to snapshot hand poses from WebXR joint tracking.",
+  "main": "bundle.js",
+  "scripts": {
+    "build": "esbuild bundle.js --minify --sourcemap --bundle --outfile=deploy/HandPoser-bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonderlandengine/hand-poser.git"
+  },
+  "keywords": [
+    "webxr",
+    "hand-tracking",
+    "3d",
+    "wonderland"
+  ],
+  "author": "Wonderland GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wonderlandengine/hand-poser/issues"
+  },
+  "homepage": "https://github.com/wonderlandengine/hand-poser#readme",
+  "devDependencies": {
+    "esbuild": "^0.11.14"
+  },
+  "dependencies": {
+    "@wonderlandengine/components": "^0.8.6",
+    "gl-matrix": "^3.3.0"
+  }
+}
