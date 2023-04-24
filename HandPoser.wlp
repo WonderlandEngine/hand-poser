@@ -10,23 +10,21 @@
                     }
                 }
             ],
-            "transformation": [
-                0.9999998807907105,
+            "translation": [
+                0.0,
+                1.7,
+                1.2394436
+            ],
+            "rotation": [
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.9999998807907105,
-                0.0,
-                0.0,
-                1.700000047683716,
-                1.2394436597824097,
                 1.0
+            ],
+            "scaling": [
+                0.9999998,
+                1.0,
+                0.9999998
             ]
         },
         "15": {
@@ -40,55 +38,22 @@
                     }
                 }
             ],
-            "transformation": [
+            "translation": [
+                0.0,
+                0.0,
+                1.1920931797249068e-7
+            ],
+            "rotation": [
+                -0.7072498,
+                0.0,
+                0.0,
+                0.7069637
+            ],
+            "scaling": [
                 50.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                -0.02022982202470303,
-                -50.0000114440918,
-                0.0,
-                0.0,
-                49.999996185302737,
-                -0.02022981643676758,
-                0.0,
-                0.0,
-                0.0,
-                1.1920931797249069e-7,
-                1.0
+                50.0000152,
+                50.0
             ]
-        },
-        "16": {
-            "name": "Cube",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "8",
-                        "material": "22"
-                    }
-                }
-            ],
-            "transformation": [
-                0.5,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.5,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.5,
-                0.0,
-                2.9802322387695329e-8,
-                0.4999999403953552,
-                0.0,
-                1.0
-            ],
-            "deleted": true
         },
         "17": {
             "name": "NonVrCamera",
@@ -99,6 +64,12 @@
                 },
                 {
                     "type": "mouse-look"
+                },
+                {
+                    "type": "cursor",
+                    "cursor": {
+                        "handedness": "input component"
+                    }
                 }
             ]
         },
@@ -141,26 +112,24 @@
                 {
                     "type": "light",
                     "light": {
-                        "attenuation": 0.10000000149011612
+                        "attenuation": 0.1
                     }
                 }
             ],
-            "transformation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
+            "translation": [
                 1.0,
                 3.0,
+                0.0
+            ],
+            "rotation": [
                 0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                1.0,
+                1.0,
                 1.0
             ]
         },
@@ -170,90 +139,26 @@
                 {
                     "type": "light",
                     "light": {
-                        "attenuation": 0.10000000149011612
+                        "attenuation": 0.1
                     }
                 }
             ],
-            "transformation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
+            "translation": [
                 -1.0,
                 3.0,
+                0.0
+            ],
+            "rotation": [
                 0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                1.0,
+                1.0,
                 1.0
             ]
-        },
-        "24": {
-            "name": "Cone",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "10",
-                        "material": "25"
-                    }
-                }
-            ],
-            "transformation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                1.5,
-                1.0,
-                -1.4901161193847657e-8,
-                1.0
-            ],
-            "deleted": true
-        },
-        "27": {
-            "name": "Sphere",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "9",
-                        "material": "26"
-                    }
-                }
-            ],
-            "transformation": [
-                0.75,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.75,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.75,
-                0.0,
-                0.5,
-                0.75,
-                -1.25,
-                1.0
-            ],
-            "deleted": true
         },
         "35": {
             "link": {
@@ -262,24 +167,6 @@
             },
             "name": "HandLeftArmature",
             "parent": "14",
-            "transformation": [
-                1.0,
-                -6.166255417383584e-8,
-                0.0,
-                0.0,
-                6.166255417383584e-8,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
             "components": [
                 null,
                 null,
@@ -317,16 +204,33 @@
                     "active": true
                 },
                 {
-                    "type": "hand-tracking",
-                    "hand-tracking": {
-                        "jointMesh": "8",
-                        "jointMaterial": "25"
-                    },
-                    "active": false
+                    "type": "hand-pose"
                 },
                 {
-                    "type": "hand-pose"
+                    "type": "vr-mode-active-switch"
+                },
+                {
+                    "type": "cursor",
+                    "cursor": {
+                        "handedness": "left"
+                    }
                 }
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                -3.0831277086917914e-8,
+                1.0
+            ],
+            "scaling": [
+                1.0,
+                1.0,
+                1.0
             ]
         },
         "36": {
@@ -334,716 +238,30 @@
                 "name": "l_handMeshNode<Armature",
                 "file": "l_hand.glb"
             },
-            "transformation": [
-                1.0,
+            "parent": "35",
+            "translation": [
                 0.0,
                 0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
+                0.0
+            ],
+            "rotation": [
                 0.0,
                 0.0,
                 0.0,
                 1.0
             ],
-            "parent": "35"
-        },
-        "37": {
-            "link": {
-                "name": "b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "38": {
-            "link": {
-                "name": "l_index_knuckle_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "39": {
-            "link": {
-                "name": "l_index_mcp_aa_axis_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "40": {
-            "link": {
-                "name": "l_index_mcp_fe_axis_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "41": {
-            "link": {
-                "name": "l_index_palm_collider_base0_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "42": {
-            "link": {
-                "name": "l_index_palm_collider_base1_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "43": {
-            "link": {
-                "name": "l_index_palm_knuckle_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "44": {
-            "link": {
-                "name": "l_middle_mcp_aa_axis_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "45": {
-            "link": {
-                "name": "l_middle_mcp_fe_axis_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "46": {
-            "link": {
-                "name": "l_middle_palm_collider_base0_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "47": {
-            "link": {
-                "name": "l_middle_palm_collider_base1_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "48": {
-            "link": {
-                "name": "l_middle_palm_knuckle_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "49": {
-            "link": {
-                "name": "l_palm_center_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "50": {
-            "link": {
-                "name": "l_pinky_knuckle_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "51": {
-            "link": {
-                "name": "l_pinky_mcp_aa_axis_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "52": {
-            "link": {
-                "name": "l_pinky_mcp_fe_axis_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "53": {
-            "link": {
-                "name": "l_pinky_palm_collider_base0_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "54": {
-            "link": {
-                "name": "l_pinky_palm_collider_base1_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "55": {
-            "link": {
-                "name": "l_pinky_palm_knuckle_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "56": {
-            "link": {
-                "name": "l_ring_knuckle_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "57": {
-            "link": {
-                "name": "l_ring_mcp_aa_axis_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "58": {
-            "link": {
-                "name": "l_ring_mcp_fe_axis_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "59": {
-            "link": {
-                "name": "l_ring_palm_collider_base0_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "60": {
-            "link": {
-                "name": "l_ring_palm_collider_base1_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "61": {
-            "link": {
-                "name": "l_ring_palm_knuckle_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "62": {
-            "link": {
-                "name": "l_thumb_cmc_aa_axis_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "63": {
-            "link": {
-                "name": "l_thumb_cmc_fe_axis_marker<b_l_wrist<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "37",
-            "deleted": true
-        },
-        "64": {
-            "link": {
-                "name": "b_l_thumb0<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "65": {
-            "link": {
-                "name": "b_l_thumb1<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "66": {
-            "link": {
-                "name": "l_thumb_knuckle_marker<b_l_thumb1<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "65",
-            "deleted": true
-        },
-        "67": {
-            "link": {
-                "name": "l_thumb_mcp_fe_axis_marker<b_l_thumb1<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "65",
-            "deleted": true
-        },
-        "68": {
-            "link": {
-                "name": "l_thumb_palm_knuckle_marker<b_l_thumb1<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "65",
-            "deleted": true
-        },
-        "69": {
-            "link": {
-                "name": "b_l_thumb2<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "70": {
-            "link": {
-                "name": "l_thumb_ip_fe_axis_marker<b_l_thumb2<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "69",
-            "deleted": true
-        },
-        "71": {
-            "link": {
-                "name": "b_l_thumb3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "72": {
-            "link": {
-                "name": "l_thumb_finger_pad_marker<b_l_thumb3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "71",
-            "deleted": true
-        },
-        "73": {
-            "link": {
-                "name": "l_thumb_finger_tip_marker<b_l_thumb3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "71",
-            "deleted": true
-        },
-        "74": {
-            "link": {
-                "name": "l_thumb_fingernail_marker<b_l_thumb3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "71",
-            "deleted": true
-        },
-        "75": {
-            "link": {
-                "name": "b_l_thumb_null<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "76": {
-            "link": {
-                "name": "b_l_index1<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "77": {
-            "link": {
-                "name": "l_index_pip_fe_axis_marker<b_l_index1<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "76",
-            "deleted": true
-        },
-        "78": {
-            "link": {
-                "name": "b_l_index2<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "79": {
-            "link": {
-                "name": "l_index_dip_fe_axis_marker<b_l_index2<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "78",
-            "deleted": true
-        },
-        "80": {
-            "link": {
-                "name": "b_l_index3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "components": [
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null
+            "scaling": [
+                1.0,
+                1.0,
+                1.0
             ],
-            "deleted": true
-        },
-        "81": {
-            "link": {
-                "name": "l_index_finger_pad_marker<b_l_index3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "80",
-            "deleted": true
-        },
-        "82": {
-            "link": {
-                "name": "l_index_finger_tip_marker<b_l_index3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "80",
             "components": [
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 {
-                    "type": "collision",
-                    "collision": {
-                        "sphere": {
-                            "radius": 0.009999999776482582
-                        }
+                    "mesh": {
+                        "skin": "34"
                     }
-                },
-                {
-                    "type": "finger-cursor"
                 }
-            ],
-            "deleted": true
-        },
-        "83": {
-            "link": {
-                "name": "l_index_fingernail_marker<b_l_index3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "80",
-            "deleted": true
-        },
-        "84": {
-            "link": {
-                "name": "b_l_index_null<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "85": {
-            "link": {
-                "name": "b_l_middle1<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "86": {
-            "link": {
-                "name": "l_middle_knuckle_marker<b_l_middle1<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "85",
-            "deleted": true
-        },
-        "87": {
-            "link": {
-                "name": "l_middle_pip_fe_axis_marker<b_l_middle1<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "85",
-            "deleted": true
-        },
-        "88": {
-            "link": {
-                "name": "b_l_middle2<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "89": {
-            "link": {
-                "name": "l_middle_dip_fe_axis_marker<b_l_middle2<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "88",
-            "deleted": true
-        },
-        "90": {
-            "link": {
-                "name": "b_l_middle3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "91": {
-            "link": {
-                "name": "l_middle_finger_pad_marker<b_l_middle3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "90",
-            "deleted": true
-        },
-        "92": {
-            "link": {
-                "name": "l_middle_finger_tip_marker<b_l_middle3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "90",
-            "deleted": true
-        },
-        "93": {
-            "link": {
-                "name": "l_middle_fingernail_marker<b_l_middle3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "90",
-            "deleted": true
-        },
-        "94": {
-            "link": {
-                "name": "b_l_middle_null<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "95": {
-            "link": {
-                "name": "b_l_ring1<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "96": {
-            "link": {
-                "name": "l_ring_pip_fe_axis_marker<b_l_ring1<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "95",
-            "deleted": true
-        },
-        "97": {
-            "link": {
-                "name": "b_l_ring2<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "98": {
-            "link": {
-                "name": "l_ring_dip_fe_axis_marker<b_l_ring2<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "97",
-            "deleted": true
-        },
-        "99": {
-            "link": {
-                "name": "b_l_ring3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "100": {
-            "link": {
-                "name": "l_ring_finger_pad_marker<b_l_ring3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "99",
-            "deleted": true
-        },
-        "101": {
-            "link": {
-                "name": "l_ring_finger_tip_marker<b_l_ring3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "99",
-            "deleted": true
-        },
-        "102": {
-            "link": {
-                "name": "l_ring_fingernail_marker<b_l_ring3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "99",
-            "deleted": true
-        },
-        "103": {
-            "link": {
-                "name": "b_l_ring_null<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "104": {
-            "link": {
-                "name": "b_l_pinky0<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "105": {
-            "link": {
-                "name": "b_l_pinky1<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "106": {
-            "link": {
-                "name": "l_pinky_pip_fe_axis_marker<b_l_pinky1<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "105",
-            "deleted": true
-        },
-        "107": {
-            "link": {
-                "name": "b_l_pinky2<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "108": {
-            "link": {
-                "name": "l_pinky_dip_fe_axis_marker<b_l_pinky2<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "107",
-            "deleted": true
-        },
-        "109": {
-            "link": {
-                "name": "b_l_pinky3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "110": {
-            "link": {
-                "name": "l_pinky_finger_pad_marker<b_l_pinky3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "109",
-            "deleted": true
-        },
-        "111": {
-            "link": {
-                "name": "l_pinky_finger_tip_marker<b_l_pinky3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "109",
-            "deleted": true
-        },
-        "112": {
-            "link": {
-                "name": "l_pinky_fingernail_marker<b_l_pinky3<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "109",
-            "deleted": true
-        },
-        "113": {
-            "link": {
-                "name": "b_l_pinky_null<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
-        },
-        "114": {
-            "link": {
-                "name": "b_l_forearm_stub<Armature",
-                "file": "l_hand.glb"
-            },
-            "parent": "35",
-            "deleted": true
+            ]
         },
         "117": {
             "link": {
@@ -1051,36 +269,8 @@
                 "file": "r_hand.glb"
             },
             "name": "HandRightArmature",
-            "transformation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
             "parent": "14",
             "components": [
-                {
-                    "type": "hand-tracking",
-                    "hand-tracking": {
-                        "handSkin": null,
-                        "jointMesh": "9",
-                        "jointMaterial": "22",
-                        "handedness": "right"
-                    },
-                    "active": false
-                },
                 {
                     "type": "hand-tracking",
                     "hand-tracking": {
@@ -1090,7 +280,29 @@
                 },
                 {
                     "type": "hand-pose"
+                },
+                {
+                    "type": "cursor",
+                    "cursor": {
+                        "handedness": "right"
+                    }
                 }
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                1.0,
+                1.0,
+                1.0
             ]
         },
         "118": {
@@ -1098,688 +310,32 @@
                 "name": "r_handMeshNode<Armature",
                 "file": "r_hand.glb"
             },
-            "transformation": [
-                1.0,
-                4.2351647362715049e-22,
-                -7.105427357601002e-15,
-                0.0,
-                -4.235165241142481e-22,
-                1.000000238418579,
-                7.105427357601002e-15,
-                0.0,
-                7.105427357601002e-15,
-                -7.105425663535107e-15,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.000003814697265625,
-                1.0
-            ],
             "components": [
                 {
                     "mesh": {
-                        "material": "32"
+                        "material": "32",
+                        "skin": "116"
                     },
                     "active": true
                 }
             ],
-            "parent": "117"
-        },
-        "119": {
-            "link": {
-                "name": "b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
             "parent": "117",
-            "transformation": [
-                1.0,
+            "translation": [
                 0.0,
                 0.0,
-                0.0,
-                0.0,
-                -1.1920930376163597e-7,
-                -1.000000238418579,
-                0.0,
-                0.0,
-                1.000000238418579,
-                -1.1920930376163597e-7,
-                0.0,
+                0.0000038
+            ],
+            "rotation": [
                 0.0,
                 0.0,
                 0.0,
                 1.0
             ],
-            "deleted": true
-        },
-        "120": {
-            "link": {
-                "name": "r_index_knuckle_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "121": {
-            "link": {
-                "name": "r_index_mcp_aa_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "122": {
-            "link": {
-                "name": "r_index_mcp_fe_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "123": {
-            "link": {
-                "name": "r_index_palm_collider_base0_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "124": {
-            "link": {
-                "name": "r_index_palm_collider_base1_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "125": {
-            "link": {
-                "name": "r_index_palm_knuckle_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "126": {
-            "link": {
-                "name": "r_middle_mcp_aa_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "127": {
-            "link": {
-                "name": "r_middle_mcp_fe_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "128": {
-            "link": {
-                "name": "r_middle_palm_collider_base0_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "129": {
-            "link": {
-                "name": "r_middle_palm_collider_base1_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "130": {
-            "link": {
-                "name": "r_middle_palm_knuckle_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "131": {
-            "link": {
-                "name": "r_palm_center_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "132": {
-            "link": {
-                "name": "r_pinky_knuckle_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "133": {
-            "link": {
-                "name": "r_pinky_mcp_aa_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "134": {
-            "link": {
-                "name": "r_pinky_mcp_fe_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "135": {
-            "link": {
-                "name": "r_pinky_palm_collider_base0_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "136": {
-            "link": {
-                "name": "r_pinky_palm_collider_base1_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "137": {
-            "link": {
-                "name": "r_pinky_palm_knuckle_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "138": {
-            "link": {
-                "name": "r_ring_knuckle_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "139": {
-            "link": {
-                "name": "r_ring_mcp_aa_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "140": {
-            "link": {
-                "name": "r_ring_mcp_fe_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "141": {
-            "link": {
-                "name": "r_ring_palm_collider_base0_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "142": {
-            "link": {
-                "name": "r_ring_palm_collider_base1_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "143": {
-            "link": {
-                "name": "r_ring_palm_knuckle_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "144": {
-            "link": {
-                "name": "r_thumb_cmc_aa_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "145": {
-            "link": {
-                "name": "r_thumb_cmc_fe_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "119",
-            "deleted": true
-        },
-        "146": {
-            "link": {
-                "name": "b_r_thumb0<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "147": {
-            "link": {
-                "name": "b_r_thumb1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "148": {
-            "link": {
-                "name": "r_thumb_knuckle_marker<b_r_thumb1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "147",
-            "deleted": true
-        },
-        "149": {
-            "link": {
-                "name": "r_thumb_mcp_fe_axis_marker<b_r_thumb1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "147",
-            "deleted": true
-        },
-        "150": {
-            "link": {
-                "name": "r_thumb_palm_knuckle_marker<b_r_thumb1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "147",
-            "deleted": true
-        },
-        "151": {
-            "link": {
-                "name": "b_r_thumb2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "152": {
-            "link": {
-                "name": "r_thumb_ip_fe_axis_marker<b_r_thumb2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "151",
-            "deleted": true
-        },
-        "153": {
-            "link": {
-                "name": "b_r_thumb3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "154": {
-            "link": {
-                "name": "r_thumb_finger_pad_marker<b_r_thumb3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "153",
-            "deleted": true
-        },
-        "155": {
-            "link": {
-                "name": "r_thumb_finger_tip_marker<b_r_thumb3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "153",
-            "deleted": true
-        },
-        "156": {
-            "link": {
-                "name": "r_thumb_fingernail_marker<b_r_thumb3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "153",
-            "deleted": true
-        },
-        "157": {
-            "link": {
-                "name": "b_r_thumb_null<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "158": {
-            "link": {
-                "name": "b_r_index1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "159": {
-            "link": {
-                "name": "r_index_pip_fe_axis_marker<b_r_index1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "158",
-            "deleted": true
-        },
-        "160": {
-            "link": {
-                "name": "b_r_index2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "161": {
-            "link": {
-                "name": "r_index_dip_fe_axis_marker<b_r_index2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "160",
-            "deleted": true
-        },
-        "162": {
-            "link": {
-                "name": "b_r_index3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "163": {
-            "link": {
-                "name": "r_index_finger_pad_marker<b_r_index3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "162",
-            "deleted": true
-        },
-        "164": {
-            "link": {
-                "name": "r_index_finger_tip_marker<b_r_index3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "162",
-            "components": [
-                {
-                    "type": "collision",
-                    "collision": {
-                        "sphere": {
-                            "radius": 0.009999999776482582
-                        }
-                    }
-                },
-                {
-                    "type": "finger-cursor"
-                }
-            ],
-            "deleted": true
-        },
-        "165": {
-            "link": {
-                "name": "r_index_fingernail_marker<b_r_index3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "162",
-            "deleted": true
-        },
-        "166": {
-            "link": {
-                "name": "b_r_index_null<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "167": {
-            "link": {
-                "name": "b_r_middle1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "168": {
-            "link": {
-                "name": "r_middle_knuckle_marker<b_r_middle1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "167",
-            "deleted": true
-        },
-        "169": {
-            "link": {
-                "name": "r_middle_pip_fe_axis_marker<b_r_middle1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "167",
-            "deleted": true
-        },
-        "170": {
-            "link": {
-                "name": "b_r_middle2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "171": {
-            "link": {
-                "name": "r_middle_dip_fe_axis_marker<b_r_middle2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "170",
-            "deleted": true
-        },
-        "172": {
-            "link": {
-                "name": "b_r_middle3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "173": {
-            "link": {
-                "name": "r_middle_finger_pad_marker<b_r_middle3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "172",
-            "deleted": true
-        },
-        "174": {
-            "link": {
-                "name": "r_middle_finger_tip_marker<b_r_middle3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "172",
-            "deleted": true
-        },
-        "175": {
-            "link": {
-                "name": "r_middle_fingernail_marker<b_r_middle3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "172",
-            "deleted": true
-        },
-        "176": {
-            "link": {
-                "name": "b_r_middle_null<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "177": {
-            "link": {
-                "name": "b_r_ring1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "178": {
-            "link": {
-                "name": "r_ring_pip_fe_axis_marker<b_r_ring1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "177",
-            "deleted": true
-        },
-        "179": {
-            "link": {
-                "name": "b_r_ring2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "180": {
-            "link": {
-                "name": "r_ring_dip_fe_axis_marker<b_r_ring2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "179",
-            "deleted": true
-        },
-        "181": {
-            "link": {
-                "name": "b_r_ring3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "182": {
-            "link": {
-                "name": "r_ring_finger_pad_marker<b_r_ring3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "181",
-            "deleted": true
-        },
-        "183": {
-            "link": {
-                "name": "r_ring_finger_tip_marker<b_r_ring3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "181",
-            "deleted": true
-        },
-        "184": {
-            "link": {
-                "name": "r_ring_fingernail_marker<b_r_ring3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "181",
-            "deleted": true
-        },
-        "185": {
-            "link": {
-                "name": "b_r_ring_null<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "186": {
-            "link": {
-                "name": "b_r_pinky0<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "187": {
-            "link": {
-                "name": "b_r_pinky1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "188": {
-            "link": {
-                "name": "r_pinky_pip_fe_axis_marker<b_r_pinky1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "187",
-            "deleted": true
-        },
-        "189": {
-            "link": {
-                "name": "b_r_pinky2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "190": {
-            "link": {
-                "name": "r_pinky_dip_fe_axis_marker<b_r_pinky2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "189",
-            "deleted": true
-        },
-        "191": {
-            "link": {
-                "name": "b_r_pinky3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "192": {
-            "link": {
-                "name": "r_pinky_finger_pad_marker<b_r_pinky3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "191",
-            "deleted": true
-        },
-        "193": {
-            "link": {
-                "name": "r_pinky_finger_tip_marker<b_r_pinky3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "191",
-            "deleted": true
-        },
-        "194": {
-            "link": {
-                "name": "r_pinky_fingernail_marker<b_r_pinky3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "191",
-            "deleted": true
-        },
-        "195": {
-            "link": {
-                "name": "b_r_pinky_null<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
-        },
-        "196": {
-            "link": {
-                "name": "b_r_forearm_stub<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "117",
-            "deleted": true
+            "scaling": [
+                1.0,
+                1.0000002,
+                1.0
+            ]
         },
         "198": {
             "name": "Description",
@@ -1787,32 +343,30 @@
                 {
                     "type": "text",
                     "text": {
-                        "text": "Tap a button then wait 3 seconds for the snapshot to be taken.",
+                        "text": "Click a button then wait 3 seconds for the snapshot to be taken.",
                         "alignment": "left",
                         "justification": "top",
                         "material": "411"
                     }
                 }
             ],
-            "transformation": [
-                0.25,
+            "parent": "202",
+            "translation": [
+                -0.3854511,
+                0.3094054,
+                -0.3198679
+            ],
+            "rotation": [
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                0.24999992549419404,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.24999992549419404,
-                0.0,
-                -0.38545119762420657,
-                0.30940544605255129,
-                -0.3198679089546204,
                 1.0
             ],
-            "parent": "202"
+            "scaling": [
+                0.25,
+                0.2499999,
+                0.2499999
+            ]
         },
         "200": {
             "name": "Title",
@@ -1827,23 +381,21 @@
                     }
                 }
             ],
-            "transformation": [
-                1.5,
+            "translation": [
+                0.0,
+                0.2316131,
+                0.0
+            ],
+            "rotation": [
                 0.0,
                 0.0,
-                0.0,
-                0.0,
-                1.5,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.5,
-                0.0,
-                0.0,
-                0.2316131591796875,
                 0.0,
                 1.0
+            ],
+            "scaling": [
+                1.5,
+                1.5,
+                1.5
             ]
         },
         "201": {
@@ -1876,95 +428,60 @@
                 {
                     "type": "collision",
                     "collision": {
-                        "collider": "box",
+                        "collider": "aabb",
                         "box": {
                             "extents": [
-                                0.10000000149011612,
-                                0.009999999776482582,
-                                0.05999999865889549
+                                0.1,
+                                0.0099999,
+                                0.0599999
+                            ]
+                        },
+                        "aabb": {
+                            "extents": [
+                                0.1,
+                                0.1,
+                                0.1
                             ]
                         }
                     }
                 }
             ],
-            "transformation": [
-                0.10000000149011612,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.008660254068672657,
-                0.005000000353902578,
-                0.0,
-                0.0,
-                -0.05000000819563866,
-                0.08660253882408142,
-                0.0,
-                -0.30000001192092898,
-                0.08848726749420166,
-                -0.07121771574020386,
-                1.0
+            "parent": "202",
+            "translation": [
+                -0.3,
+                0.0884872,
+                -0.0712177
             ],
-            "parent": "202"
+            "rotation": [
+                0.258819,
+                0.0,
+                0.0,
+                0.9659258
+            ],
+            "scaling": [
+                0.1,
+                0.0099999,
+                0.1
+            ]
         },
         "202": {
             "name": "Ui",
-            "transformation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
+            "translation": [
                 0.0,
                 1.25,
+                1.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                1.0,
                 1.0,
                 1.0
             ]
-        },
-        "203": {
-            "name": "ButtonSnapshotLeft",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "8",
-                        "material": "20"
-                    }
-                },
-                {
-                    "type": "button",
-                    "button": {
-                        "hoverMaterial": "22"
-                    }
-                }
-            ],
-            "transformation": [
-                0.10000000149011612,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.008660254068672657,
-                0.005000000353902578,
-                0.0,
-                0.0,
-                -0.05000000819563866,
-                0.08660253882408142,
-                0.0,
-                -0.119999997317791,
-                1.192092895507813e-7,
-                5.960464477539065e-8,
-                1.0
-            ],
-            "parent": "202",
-            "deleted": true
         },
         "204": {
             "name": "ButtonSnapshotRight",
@@ -1996,36 +513,41 @@
                 {
                     "type": "collision",
                     "collision": {
-                        "collider": "box",
+                        "collider": "aabb",
                         "box": {
                             "extents": [
-                                0.10000000149011612,
-                                0.009999999776482582,
-                                0.05999999865889549
+                                0.1,
+                                0.0099999,
+                                0.0599999
+                            ]
+                        },
+                        "aabb": {
+                            "extents": [
+                                0.1,
+                                0.1,
+                                0.1
                             ]
                         }
                     }
                 }
             ],
-            "transformation": [
-                0.10000000149011612,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.008660254068672657,
-                0.005000000353902578,
-                0.0,
-                0.0,
-                -0.05000000819563866,
-                0.08660253882408142,
-                0.0,
-                0.30000001192092898,
-                0.08848726749420166,
-                -0.07121765613555908,
-                1.0
+            "parent": "202",
+            "translation": [
+                0.3,
+                0.0884872,
+                -0.0712176
             ],
-            "parent": "202"
+            "rotation": [
+                0.258819,
+                0.0,
+                0.0,
+                0.9659258
+            ],
+            "scaling": [
+                0.1,
+                0.0099999,
+                0.1
+            ]
         },
         "205": {
             "name": "Label",
@@ -2038,23 +560,21 @@
                     }
                 }
             ],
-            "transformation": [
-                3.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                -0.000003576275503291982,
-                -29.999971389770509,
-                0.0,
-                0.0,
-                2.9999992847442629,
-                -3.576278118089249e-7,
-                0.0,
+            "translation": [
                 -8.344651405423065e-7,
-                1.2999999523162842,
-                -0.00003719329833984375,
-                1.0
+                1.2999999,
+                -0.0000371
+            ],
+            "rotation": [
+                -0.7071068,
+                0.0,
+                0.0,
+                0.7071067
+            ],
+            "scaling": [
+                3.0,
+                29.9999713,
+                2.9999992
             ]
         },
         "207": {
@@ -2068,46 +588,42 @@
                     }
                 }
             ],
-            "transformation": [
-                3.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                -0.000003576275503291982,
-                -29.999971389770509,
-                0.0,
-                0.0,
-                2.9999992847442629,
-                -3.576278118089249e-7,
-                0.0,
+            "translation": [
                 -8.344651405423065e-7,
-                1.2999999523162842,
-                -0.00003719329833984375,
-                1.0
+                1.2999999,
+                -0.0000371
+            ],
+            "rotation": [
+                -0.7071068,
+                0.0,
+                0.0,
+                0.7071067
+            ],
+            "scaling": [
+                3.0,
+                29.9999713,
+                2.9999992
             ]
         },
         "208": {
             "name": "ResultDisplay",
-            "transformation": [
-                1.0,
+            "parent": "202",
+            "translation": [
+                0.0,
+                0.1201509,
+                -0.1008174
+            ],
+            "rotation": [
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.12015092372894289,
-                -0.10081744194030762,
                 1.0
             ],
-            "parent": "202"
+            "scaling": [
+                1.0,
+                1.0,
+                1.0
+            ]
         },
         "209": {
             "name": "Title",
@@ -2121,1268 +637,22 @@
                     }
                 }
             ],
-            "transformation": [
-                0.30000001192092898,
+            "translation": [
+                0.0,
+                0.0728595,
+                -0.0774139
+            ],
+            "rotation": [
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                0.30000001192092898,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.30000001192092898,
-                0.0,
-                0.0,
-                0.07285952568054199,
-                -0.07741391658782959,
                 1.0
+            ],
+            "scaling": [
+                0.3,
+                0.3,
+                0.3
             ]
-        },
-        "210": {
-            "link": {
-                "name": "Armature",
-                "file": "r_hand.glb"
-            },
-            "name": "DisplayHand",
-            "transformation": [
-                0.009999998845160008,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.01000003144145012,
-                0.000011826866284536664,
-                0.0,
-                0.0,
-                -0.000011826866284536664,
-                0.01000003144145012,
-                0.0,
-                0.08092930912971497,
-                0.0000057220458984375,
-                0.0000029802322387695314,
-                1.0
-            ],
-            "parent": "208",
-            "components": [
-                {
-                    "type": "hand-pose"
-                }
-            ],
-            "deleted": true
-        },
-        "211": {
-            "link": {
-                "name": "r_handMeshNode<Armature",
-                "file": "r_hand.glb"
-            },
-            "transformation": [
-                0.9999999403953552,
-                -2.274746684520826e-22,
-                -7.105425240018634e-15,
-                0.0,
-                0.0,
-                1.0000003576278689,
-                5.820766091346741e-11,
-                0.0,
-                7.105466321116576e-15,
-                5.820766091346741e-11,
-                0.9999999403953552,
-                0.0,
-                -0.00000286102294921875,
-                -0.00000762939453125,
-                -0.000030517578125,
-                1.0
-            ],
-            "components": [
-                {
-                    "mesh": {
-                        "material": "32",
-                        "skin": "289"
-                    },
-                    "active": true
-                }
-            ],
-            "parent": "210",
-            "deleted": true
-        },
-        "212": {
-            "link": {
-                "name": "b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.000002145767212,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.000002145767212,
-                0.0,
-                0.0,
-                -0.000015258787243510597,
-                -0.000030517578125,
-                1.0
-            ],
-            "deleted": true
-        },
-        "213": {
-            "link": {
-                "name": "r_index_knuckle_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "214": {
-            "link": {
-                "name": "r_index_mcp_aa_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "215": {
-            "link": {
-                "name": "r_index_mcp_fe_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "216": {
-            "link": {
-                "name": "r_index_palm_collider_base0_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "217": {
-            "link": {
-                "name": "r_index_palm_collider_base1_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "218": {
-            "link": {
-                "name": "r_index_palm_knuckle_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "219": {
-            "link": {
-                "name": "r_middle_mcp_aa_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "220": {
-            "link": {
-                "name": "r_middle_mcp_fe_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "221": {
-            "link": {
-                "name": "r_middle_palm_collider_base0_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "222": {
-            "link": {
-                "name": "r_middle_palm_collider_base1_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "223": {
-            "link": {
-                "name": "r_middle_palm_knuckle_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "224": {
-            "link": {
-                "name": "r_palm_center_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "225": {
-            "link": {
-                "name": "r_pinky_knuckle_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "226": {
-            "link": {
-                "name": "r_pinky_mcp_aa_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "227": {
-            "link": {
-                "name": "r_pinky_mcp_fe_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "228": {
-            "link": {
-                "name": "r_pinky_palm_collider_base0_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "229": {
-            "link": {
-                "name": "r_pinky_palm_collider_base1_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "230": {
-            "link": {
-                "name": "r_pinky_palm_knuckle_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "231": {
-            "link": {
-                "name": "r_ring_knuckle_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "232": {
-            "link": {
-                "name": "r_ring_mcp_aa_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "233": {
-            "link": {
-                "name": "r_ring_mcp_fe_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "234": {
-            "link": {
-                "name": "r_ring_palm_collider_base0_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "235": {
-            "link": {
-                "name": "r_ring_palm_collider_base1_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "236": {
-            "link": {
-                "name": "r_ring_palm_knuckle_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "237": {
-            "link": {
-                "name": "r_thumb_cmc_aa_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "238": {
-            "link": {
-                "name": "r_thumb_cmc_fe_axis_marker<b_r_wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "212",
-            "deleted": true
-        },
-        "239": {
-            "link": {
-                "name": "b_r_thumb0<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.6393353343009949,
-                -0.7054392695426941,
-                -0.30594930052757265,
-                0.0,
-                0.33158496022224429,
-                0.6119298338890076,
-                -0.7180488705635071,
-                0.0,
-                0.6937620043754578,
-                0.35762515664100649,
-                0.6251400709152222,
-                0.0,
-                -2.0069351196289064,
-                1.0496597290039065,
-                1.155364990234375,
-                1.0
-            ],
-            "deleted": true
-        },
-        "240": {
-            "link": {
-                "name": "b_r_thumb1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.7154151797294617,
-                -0.5206312537193298,
-                -0.46596622467041018,
-                0.0,
-                0.4803023934364319,
-                0.8507996797561646,
-                -0.21318982541561128,
-                0.0,
-                0.5074388980865479,
-                -0.07128528505563736,
-                0.8587333559989929,
-                0.0,
-                -3.5958447456359865,
-                2.802879333496094,
-                1.9156951904296876,
-                1.0
-            ],
-            "deleted": true
-        },
-        "241": {
-            "link": {
-                "name": "r_thumb_knuckle_marker<b_r_thumb1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "240",
-            "deleted": true
-        },
-        "242": {
-            "link": {
-                "name": "r_thumb_mcp_fe_axis_marker<b_r_thumb1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "240",
-            "deleted": true
-        },
-        "243": {
-            "link": {
-                "name": "r_thumb_palm_knuckle_marker<b_r_thumb1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "240",
-            "deleted": true
-        },
-        "244": {
-            "link": {
-                "name": "b_r_thumb2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.7073817849159241,
-                -0.6497445106506348,
-                -0.2782870829105377,
-                0.0,
-                0.5185996890068054,
-                0.7446011304855347,
-                -0.420265793800354,
-                0.0,
-                0.4802802503108978,
-                0.15296854078769685,
-                0.8636730313301086,
-                0.0,
-                -5.92186450958252,
-                4.495574951171875,
-                3.4307098388671877,
-                1.0
-            ],
-            "deleted": true
-        },
-        "245": {
-            "link": {
-                "name": "r_thumb_ip_fe_axis_marker<b_r_thumb2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "244",
-            "deleted": true
-        },
-        "246": {
-            "link": {
-                "name": "b_r_thumb3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.5755612850189209,
-                -0.7391329407691956,
-                -0.3498731851577759,
-                0.0,
-                0.6733510494232178,
-                0.671133816242218,
-                -0.3101253807544708,
-                0.0,
-                0.4640381634235382,
-                -0.05709129199385643,
-                0.8839742541313171,
-                0.0,
-                -8.312326431274414,
-                6.691253662109375,
-                4.371109008789063,
-                1.0
-            ],
-            "deleted": true
-        },
-        "247": {
-            "link": {
-                "name": "r_thumb_finger_pad_marker<b_r_thumb3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "246",
-            "deleted": true
-        },
-        "248": {
-            "link": {
-                "name": "r_thumb_finger_tip_marker<b_r_thumb3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "246",
-            "deleted": true
-        },
-        "249": {
-            "link": {
-                "name": "r_thumb_fingernail_marker<b_r_thumb3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "246",
-            "deleted": true
-        },
-        "250": {
-            "link": {
-                "name": "b_r_thumb_null<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.5755611062049866,
-                -0.7391335964202881,
-                -0.34987324476242068,
-                0.0,
-                0.6733512878417969,
-                0.6711335182189941,
-                -0.310126006603241,
-                0.0,
-                0.4640381634235382,
-                -0.05709102377295494,
-                0.8839736580848694,
-                0.0,
-                -9.167806625366213,
-                7.789871215820313,
-                4.891159057617188,
-                1.0
-            ],
-            "deleted": true
-        },
-        "251": {
-            "link": {
-                "name": "b_r_index1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.9955419898033142,
-                0.04030736908316612,
-                -0.08526843786239624,
-                0.0,
-                -0.08758319914340973,
-                0.05963645130395889,
-                -0.9943711757659912,
-                0.0,
-                -0.03499556705355644,
-                0.9974061846733092,
-                0.0629008337855339,
-                0.0,
-                -9.59962558746338,
-                2.355056762695313,
-                0.7315826416015625,
-                1.0
-            ],
-            "deleted": true
-        },
-        "252": {
-            "link": {
-                "name": "r_index_pip_fe_axis_marker<b_r_index1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "251",
-            "deleted": true
-        },
-        "253": {
-            "link": {
-                "name": "b_r_index2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.9943191409111024,
-                0.054737143218517306,
-                -0.09128617495298386,
-                0.0,
-                -0.09184170514345168,
-                0.0077063231728971008,
-                -0.995743453502655,
-                0.0,
-                -0.05380099266767502,
-                0.9984710216522216,
-                0.012689701281487942,
-                0.0,
-                -13.375452041625977,
-                2.2021942138671877,
-                1.0549774169921876,
-                1.0
-            ],
-            "deleted": true
-        },
-        "254": {
-            "link": {
-                "name": "r_index_dip_fe_axis_marker<b_r_index2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "253",
-            "deleted": true
-        },
-        "255": {
-            "link": {
-                "name": "b_r_index3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.99260812997818,
-                0.1093444749712944,
-                0.05265415087342262,
-                0.0,
-                0.05434393137693405,
-                -0.01252659223973751,
-                -0.9984437823295592,
-                0.0,
-                -0.10851534456014632,
-                0.9939249753952026,
-                -0.01837620697915554,
-                0.0,
-                -15.792009353637696,
-                2.069160461425782,
-                1.2768402099609376,
-                1.0
-            ],
-            "deleted": true
-        },
-        "256": {
-            "link": {
-                "name": "r_index_finger_pad_marker<b_r_index3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "255",
-            "deleted": true
-        },
-        "257": {
-            "link": {
-                "name": "r_index_finger_tip_marker<b_r_index3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "255",
-            "deleted": true
-        },
-        "258": {
-            "link": {
-                "name": "r_index_fingernail_marker<b_r_index3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "255",
-            "deleted": true
-        },
-        "259": {
-            "link": {
-                "name": "b_r_index_null<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.9926083087921144,
-                0.10934477299451828,
-                0.05265406519174576,
-                0.0,
-                0.05434386059641838,
-                -0.012526731006801129,
-                -0.9984437823295592,
-                0.0,
-                -0.1085156500339508,
-                0.9939249753952026,
-                -0.01837635412812233,
-                0.0,
-                -16.941749572753908,
-                1.9425048828125,
-                1.215850830078125,
-                1.0
-            ],
-            "deleted": true
-        },
-        "260": {
-            "link": {
-                "name": "b_r_middle1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.9893290996551514,
-                0.10171204805374146,
-                -0.10432341694831848,
-                0.0,
-                -0.10245754569768906,
-                -0.02341929078102112,
-                -0.9944621324539184,
-                0.0,
-                -0.10359242558479308,
-                0.9945378303527832,
-                -0.012748203240334988,
-                0.0,
-                -9.56466293334961,
-                0.172576904296875,
-                0.2542724609375,
-                1.0
-            ],
-            "deleted": true
-        },
-        "261": {
-            "link": {
-                "name": "r_middle_knuckle_marker<b_r_middle1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "260",
-            "deleted": true
-        },
-        "262": {
-            "link": {
-                "name": "r_middle_pip_fe_axis_marker<b_r_middle1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "260",
-            "deleted": true
-        },
-        "263": {
-            "link": {
-                "name": "b_r_middle2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.9887664914131165,
-                0.11055131256580352,
-                -0.10059432685375214,
-                0.0,
-                -0.09609527885913848,
-                -0.04531555250287056,
-                -0.9943399429321288,
-                0.0,
-                -0.11448480933904648,
-                0.9928374290466308,
-                -0.034183066338300708,
-                0.0,
-                -13.81155014038086,
-                -0.264007568359375,
-                0.7020721435546875,
-                1.0
-            ],
-            "deleted": true
-        },
-        "264": {
-            "link": {
-                "name": "r_middle_dip_fe_axis_marker<b_r_middle2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "263",
-            "deleted": true
-        },
-        "265": {
-            "link": {
-                "name": "b_r_middle3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.9875923991203308,
-                0.1324577629566193,
-                0.0843522846698761,
-                0.0,
-                0.09684576839208604,
-                -0.0908864364027977,
-                -0.991140842437744,
-                0.0,
-                -0.12361855059862136,
-                0.9870123863220216,
-                -0.10258672386407852,
-                0.0,
-                -16.535558700561525,
-                -0.5685882568359375,
-                0.9792327880859376,
-                1.0
-            ],
-            "deleted": true
-        },
-        "266": {
-            "link": {
-                "name": "r_middle_finger_pad_marker<b_r_middle3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "265",
-            "deleted": true
-        },
-        "267": {
-            "link": {
-                "name": "r_middle_finger_tip_marker<b_r_middle3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "265",
-            "deleted": true
-        },
-        "268": {
-            "link": {
-                "name": "r_middle_fingernail_marker<b_r_middle3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "265",
-            "deleted": true
-        },
-        "269": {
-            "link": {
-                "name": "b_r_middle_null<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.9875929355621338,
-                0.13245786726474766,
-                0.08435241878032685,
-                0.0,
-                0.09684594720602036,
-                -0.09088680893182756,
-                -0.9911412000656128,
-                0.0,
-                -0.12361856549978256,
-                0.9870128631591796,
-                -0.10258714109659197,
-                0.0,
-                -17.740772247314454,
-                -0.730224609375,
-                0.87628173828125,
-                1.0
-            ],
-            "deleted": true
-        },
-        "270": {
-            "link": {
-                "name": "b_r_ring1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.9647281169891356,
-                0.23837877810001377,
-                -0.11169058829545976,
-                0.0,
-                -0.0855146199464798,
-                -0.1174900010228157,
-                -0.9893851280212402,
-                0.0,
-                -0.2489723116159439,
-                0.964038610458374,
-                -0.09296102821826936,
-                0.0,
-                -8.869378089904786,
-                -1.7465362548828126,
-                0.65289306640625,
-                1.0
-            ],
-            "deleted": true
-        },
-        "271": {
-            "link": {
-                "name": "r_ring_pip_fe_axis_marker<b_r_ring1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "270",
-            "deleted": true
-        },
-        "272": {
-            "link": {
-                "name": "b_r_ring2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.9623721837997437,
-                0.2420126497745514,
-                -0.12357550859451294,
-                0.0,
-                -0.07933489233255387,
-                -0.1847153902053833,
-                -0.97958505153656,
-                0.0,
-                -0.259899377822876,
-                0.9525277614593506,
-                -0.15856465697288514,
-                0.0,
-                -12.631446838378908,
-                -2.6761245727539064,
-                1.08843994140625,
-                1.0
-            ],
-            "deleted": true
-        },
-        "273": {
-            "link": {
-                "name": "r_ring_dip_fe_axis_marker<b_r_ring2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "272",
-            "deleted": true
-        },
-        "274": {
-            "link": {
-                "name": "b_r_ring3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.978621780872345,
-                0.195192888379097,
-                -0.0647936537861824,
-                0.0,
-                -0.0291052982211113,
-                -0.1804335564374924,
-                -0.9831560850143432,
-                0.0,
-                -0.20359748601913453,
-                0.9640250205993652,
-                -0.1708952933549881,
-                0.0,
-                -15.188789367675782,
-                -3.319236755371094,
-                1.4168243408203126,
-                1.0
-            ],
-            "deleted": true
-        },
-        "275": {
-            "link": {
-                "name": "r_ring_finger_pad_marker<b_r_ring3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "274",
-            "deleted": true
-        },
-        "276": {
-            "link": {
-                "name": "r_ring_finger_tip_marker<b_r_ring3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "274",
-            "deleted": true
-        },
-        "277": {
-            "link": {
-                "name": "r_ring_fingernail_marker<b_r_ring3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "274",
-            "deleted": true
-        },
-        "278": {
-            "link": {
-                "name": "b_r_ring_null<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.9786223769187928,
-                0.19519278407096864,
-                -0.06479369848966599,
-                0.0,
-                -0.02910540066659451,
-                -0.1804334670305252,
-                -0.9831565618515016,
-                0.0,
-                -0.20359715819358829,
-                0.964024543762207,
-                -0.17089501023292542,
-                0.0,
-                -16.35721206665039,
-                -3.5522804260253908,
-                1.494171142578125,
-                1.0
-            ],
-            "deleted": true
-        },
-        "279": {
-            "link": {
-                "name": "b_r_pinky0<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.9599372148513794,
-                0.2641330063343048,
-                -0.09356521815061568,
-                0.0,
-                0.02265898697078228,
-                -0.40597906708717348,
-                -0.9136019945144652,
-                0.0,
-                -0.2792993783950806,
-                0.8748798966407776,
-                -0.3956991136074066,
-                0.0,
-                -3.407355308532715,
-                -2.2998580932617189,
-                0.941925048828125,
-                1.0
-            ],
-            "deleted": true
-        },
-        "280": {
-            "link": {
-                "name": "b_r_pinky1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.960504114627838,
-                0.2380630075931549,
-                -0.14407587051391602,
-                0.0,
-                -0.0815262570977211,
-                -0.2542932629585266,
-                -0.963684380054474,
-                0.0,
-                -0.2660565972328186,
-                0.9373685717582704,
-                -0.22484129667282105,
-                0.0,
-                -7.789581775665283,
-                -3.50539779663086,
-                1.3690948486328126,
-                1.0
-            ],
-            "deleted": true
-        },
-        "281": {
-            "link": {
-                "name": "r_pinky_pip_fe_axis_marker<b_r_pinky1<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "280",
-            "deleted": true
-        },
-        "282": {
-            "link": {
-                "name": "b_r_pinky2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.9354481101036072,
-                0.32432061433792117,
-                -0.14054344594478608,
-                0.0,
-                -0.03300675377249718,
-                -0.3157304525375366,
-                -0.9482749700546264,
-                0.0,
-                -0.3519209623336792,
-                0.8917008638381958,
-                -0.2846446633338928,
-                0.0,
-                -10.740293502807618,
-                -4.23675537109375,
-                1.8117218017578128,
-                1.0
-            ],
-            "deleted": true
-        },
-        "283": {
-            "link": {
-                "name": "r_pinky_dip_fe_axis_marker<b_r_pinky2<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "282",
-            "deleted": true
-        },
-        "284": {
-            "link": {
-                "name": "b_r_pinky3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.9659944772720336,
-                0.2499154508113861,
-                -0.06631802767515183,
-                0.0,
-                0.01233861781656742,
-                -0.3007474541664124,
-                -0.9536240100860596,
-                0.0,
-                -0.25827157497406008,
-                0.9203763008117676,
-                -0.2936036288738251,
-                0.0,
-                -12.640324592590332,
-                -4.895488739013672,
-                2.097183227539063,
-                1.0
-            ],
-            "deleted": true
-        },
-        "285": {
-            "link": {
-                "name": "r_pinky_finger_pad_marker<b_r_pinky3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "284",
-            "deleted": true
-        },
-        "286": {
-            "link": {
-                "name": "r_pinky_finger_tip_marker<b_r_pinky3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "284",
-            "deleted": true
-        },
-        "287": {
-            "link": {
-                "name": "r_pinky_fingernail_marker<b_r_pinky3<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "284",
-            "deleted": true
-        },
-        "288": {
-            "link": {
-                "name": "b_r_pinky_null<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "210",
-            "skin": "289",
-            "transformation": [
-                0.9659940004348756,
-                0.2499152272939682,
-                -0.06631813943386078,
-                0.0,
-                0.01233832072466612,
-                -0.3007470667362213,
-                -0.9536243677139282,
-                0.0,
-                -0.2582716345787049,
-                0.920376718044281,
-                -0.2936032414436341,
-                0.0,
-                -13.790699005126954,
-                -5.1930999755859379,
-                2.1761322021484377,
-                1.0
-            ],
-            "deleted": true
-        },
-        "291": {
-            "name": "ButtonSnapshotRight",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "8",
-                        "material": "20"
-                    }
-                },
-                {
-                    "type": "button",
-                    "button": {
-                        "hoverMaterial": "22"
-                    }
-                },
-                {
-                    "type": "snapshot-button",
-                    "snapshot-button": {
-                        "handObject": "117",
-                        "labelObject": "207",
-                        "resultsObject": "210"
-                    }
-                },
-                {
-                    "type": "cursor-target"
-                },
-                {
-                    "type": "collision",
-                    "collision": {
-                        "collider": "box",
-                        "box": {
-                            "extents": [
-                                0.10000000149011612,
-                                0.009999999776482582,
-                                0.05999999865889549
-                            ]
-                        }
-                    }
-                }
-            ],
-            "transformation": [
-                0.10000000149011612,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.008660254068672657,
-                0.005000000353902578,
-                0.0,
-                0.0,
-                -0.030000003054738049,
-                0.05196152254939079,
-                0.0,
-                0.12000001221895218,
-                0.0,
-                1.192092895507813e-7,
-                1.0
-            ],
-            "parent": "202",
-            "deleted": true
-        },
-        "292": {
-            "name": "ButtonSnapshotRight",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "8",
-                        "material": "20"
-                    }
-                },
-                {
-                    "type": "button",
-                    "button": {
-                        "hoverMaterial": "22"
-                    }
-                },
-                {
-                    "type": "snapshot-button",
-                    "snapshot-button": {
-                        "handObject": "117",
-                        "labelObject": "207",
-                        "resultsObject": "210"
-                    }
-                },
-                {
-                    "type": "cursor-target"
-                },
-                {
-                    "type": "collision",
-                    "collision": {
-                        "collider": "box",
-                        "box": {
-                            "extents": [
-                                0.10000000149011612,
-                                0.009999999776482582,
-                                0.05999999865889549
-                            ]
-                        }
-                    }
-                }
-            ],
-            "transformation": [
-                0.10000000149011612,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.008660254068672657,
-                0.005000000353902578,
-                0.0,
-                0.0,
-                -0.030000003054738049,
-                0.05196152254939079,
-                0.0,
-                0.12000001221895218,
-                0.0,
-                1.192092895507813e-7,
-                1.0
-            ],
-            "parent": "202",
-            "deleted": true
         },
         "293": {
             "name": "ButtonDownload",
@@ -3406,12 +676,19 @@
                 {
                     "type": "collision",
                     "collision": {
-                        "collider": "box",
+                        "collider": "aabb",
                         "box": {
                             "extents": [
-                                0.05999999865889549,
-                                0.009999999776482582,
-                                0.03500000014901161
+                                0.0599999,
+                                0.0099999,
+                                0.035
+                            ]
+                        },
+                        "aabb": {
+                            "extents": [
+                                0.1,
+                                0.1,
+                                0.1
                             ]
                         }
                     }
@@ -3423,25 +700,23 @@
                     }
                 }
             ],
-            "transformation": [
-                0.06499999761581421,
+            "parent": "202",
+            "translation": [
                 0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.008660254068672657,
-                0.005000000353902578,
-                0.0,
-                0.0,
-                -0.030000003054738049,
-                0.05196152254939079,
-                0.0,
-                3.725290298461914e-9,
-                -0.009124994277954102,
-                0.05612730607390404,
-                1.0
+                -0.0091248,
+                0.0561272
             ],
-            "parent": "202"
+            "rotation": [
+                0.258819,
+                0.0,
+                0.0,
+                0.9659258
+            ],
+            "scaling": [
+                0.0649999,
+                0.0099999,
+                0.0599999
+            ]
         },
         "294": {
             "name": "Label",
@@ -3454,23 +729,21 @@
                     }
                 }
             ],
-            "transformation": [
+            "translation": [
+                -7.020747716524056e-7,
+                1.299987,
+                -0.000032
+            ],
+            "rotation": [
+                -0.7071063,
+                0.0,
+                0.0,
+                0.7071071
+            ],
+            "scaling": [
                 3.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                -0.000002384183744652546,
-                -19.999980926513673,
-                0.0,
-                0.0,
-                2.999992847442627,
-                -3.576270444227703e-7,
-                0.0,
-                -6.829699259469635e-7,
-                1.29998779296875,
-                -0.00002962350845336914,
-                1.0
+                19.9999752,
+                2.9999921
             ]
         },
         "296": {
@@ -3499,105 +772,120 @@
                 "name": "pinky-finger-tip<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "300": {
             "link": {
                 "name": "pinky-finger-phalanx-distal<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "301": {
             "link": {
                 "name": "pinky-finger-phalanx-intermediate<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "302": {
             "link": {
                 "name": "pinky-finger-phalanx-proximal<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "303": {
             "link": {
                 "name": "pinky-finger-metacarpal<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "304": {
             "link": {
                 "name": "ring-finger-tip<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "305": {
             "link": {
                 "name": "ring-finger-phalanx-distal<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "306": {
             "link": {
                 "name": "ring-finger-phalanx-intermediate<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "307": {
             "link": {
                 "name": "ring-finger-phalanx-proximal<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "308": {
             "link": {
                 "name": "ring-finger-metacarpal<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "309": {
             "link": {
                 "name": "middle-finger-tip<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "310": {
             "link": {
                 "name": "middle-finger-phalanx-distal<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "311": {
             "link": {
                 "name": "middle-finger-phalanx-intermediate<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "312": {
             "link": {
                 "name": "middle-finger-phalanx-proximal<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "313": {
             "link": {
                 "name": "middle-finger-metacarpal<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "314": {
             "link": {
@@ -3613,137 +901,156 @@
                     "type": "collision",
                     "collision": {
                         "sphere": {
-                            "radius": 0.009999999776482582
+                            "radius": 0.0099999
                         }
                     }
                 }
-            ]
+            ],
+            "skin": "34"
         },
         "315": {
             "link": {
                 "name": "index-finger-phalanx-distal<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "316": {
             "link": {
                 "name": "index-finger-phalanx-intermediate<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "317": {
             "link": {
                 "name": "index-finger-phalanx-proximal<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "318": {
             "link": {
                 "name": "index-finger-metacarpal<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "319": {
             "link": {
                 "name": "thumb-tip<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "320": {
             "link": {
                 "name": "thumb-phalanx-distal<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "321": {
             "link": {
                 "name": "thumb-phalanx-proximal<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "322": {
             "link": {
                 "name": "thumb-metacarpal<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "323": {
             "link": {
                 "name": "wrist<Armature",
                 "file": "l_hand.glb"
             },
-            "parent": "35"
+            "parent": "35",
+            "skin": "34"
         },
         "325": {
             "link": {
                 "name": "wrist<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "326": {
             "link": {
                 "name": "thumb-metacarpal<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "327": {
             "link": {
                 "name": "thumb-phalanx-proximal<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "328": {
             "link": {
                 "name": "thumb-phalanx-distal<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "329": {
             "link": {
                 "name": "thumb-tip<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "330": {
             "link": {
                 "name": "index-finger-metacarpal<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "331": {
             "link": {
                 "name": "index-finger-phalanx-proximal<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "332": {
             "link": {
                 "name": "index-finger-phalanx-intermediate<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "333": {
             "link": {
                 "name": "index-finger-phalanx-distal<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "334": {
             "link": {
@@ -3759,408 +1066,132 @@
                     "type": "collision",
                     "collision": {
                         "sphere": {
-                            "radius": 0.009999999776482582
+                            "radius": 0.0099999
                         }
                     }
                 }
-            ]
+            ],
+            "skin": "116"
         },
         "335": {
             "link": {
                 "name": "middle-finger-metacarpal<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "336": {
             "link": {
                 "name": "middle-finger-phalanx-proximal<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "337": {
             "link": {
                 "name": "middle-finger-phalanx-intermediate<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "338": {
             "link": {
                 "name": "middle-finger-phalanx-distal<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "339": {
             "link": {
                 "name": "middle-finger-tip<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "340": {
             "link": {
                 "name": "ring-finger-metacarpal<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "341": {
             "link": {
                 "name": "ring-finger-phalanx-proximal<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "342": {
             "link": {
                 "name": "ring-finger-phalanx-intermediate<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "343": {
             "link": {
                 "name": "ring-finger-phalanx-distal<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "344": {
             "link": {
                 "name": "ring-finger-tip<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "345": {
             "link": {
                 "name": "pinky-finger-metacarpal<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "346": {
             "link": {
                 "name": "pinky-finger-phalanx-proximal<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "347": {
             "link": {
                 "name": "pinky-finger-phalanx-intermediate<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "348": {
             "link": {
                 "name": "pinky-finger-phalanx-distal<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
+            "parent": "117",
+            "skin": "116"
         },
         "349": {
             "link": {
                 "name": "pinky-finger-tip<Armature",
                 "file": "r_hand.glb"
             },
-            "parent": "117"
-        },
-        "350": {
-            "link": {
-                "name": "Armature",
-                "file": "r_hand.glb"
-            },
-            "name": "DisplayHand",
-            "transformation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.11898016929626464,
-                -0.00876528024673462,
-                1.0
-            ],
-            "parent": "208",
-            "components": [
-                {
-                    "type": "hand-pose"
-                }
-            ],
-            "deleted": true
-        },
-        "351": {
-            "link": {
-                "name": "r_handMeshNode<Armature",
-                "file": "r_hand.glb"
-            },
-            "transformation": [
-                1.0,
-                4.2351647362715049e-22,
-                -7.105427357601002e-15,
-                0.0,
-                -4.235165241142481e-22,
-                1.000000238418579,
-                7.105427357601002e-15,
-                0.0,
-                7.105427357601002e-15,
-                -7.1054256635351069e-15,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.000003814697265625,
-                1.0
-            ],
-            "components": [
-                {
-                    "mesh": {
-                        "material": "32"
-                    },
-                    "active": true
-                }
-            ],
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "352": {
-            "link": {
-                "name": "wrist<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "353": {
-            "link": {
-                "name": "thumb-metacarpal<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "354": {
-            "link": {
-                "name": "thumb-phalanx-proximal<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "355": {
-            "link": {
-                "name": "thumb-phalanx-distal<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "356": {
-            "link": {
-                "name": "thumb-tip<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "357": {
-            "link": {
-                "name": "index-finger-metacarpal<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "358": {
-            "link": {
-                "name": "index-finger-phalanx-proximal<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "359": {
-            "link": {
-                "name": "index-finger-phalanx-intermediate<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "360": {
-            "link": {
-                "name": "index-finger-phalanx-distal<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "361": {
-            "link": {
-                "name": "index-finger-tip<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "362": {
-            "link": {
-                "name": "middle-finger-metacarpal<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "363": {
-            "link": {
-                "name": "middle-finger-phalanx-proximal<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "364": {
-            "link": {
-                "name": "middle-finger-phalanx-intermediate<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "365": {
-            "link": {
-                "name": "middle-finger-phalanx-distal<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "366": {
-            "link": {
-                "name": "middle-finger-tip<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "367": {
-            "link": {
-                "name": "ring-finger-metacarpal<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "368": {
-            "link": {
-                "name": "ring-finger-phalanx-proximal<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "369": {
-            "link": {
-                "name": "ring-finger-phalanx-intermediate<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "370": {
-            "link": {
-                "name": "ring-finger-phalanx-distal<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "371": {
-            "link": {
-                "name": "ring-finger-tip<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "372": {
-            "link": {
-                "name": "pinky-finger-metacarpal<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "373": {
-            "link": {
-                "name": "pinky-finger-phalanx-proximal<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "374": {
-            "link": {
-                "name": "pinky-finger-phalanx-intermediate<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "375": {
-            "link": {
-                "name": "pinky-finger-phalanx-distal<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
-        },
-        "376": {
-            "link": {
-                "name": "pinky-finger-tip<Armature",
-                "file": "r_hand.glb"
-            },
-            "parent": "350",
-            "skin": "377",
-            "deleted": true
+            "parent": "117",
+            "skin": "116"
         },
         "378": {
             "link": {
@@ -4168,29 +1199,27 @@
                 "file": "r_hand.glb"
             },
             "name": "DisplayHand",
-            "transformation": [
-                -0.0000033378655643900858,
-                -1.0000016689300538,
-                0.000002920632368841325,
-                0.0,
-                -0.0003357533714734018,
-                -0.0000029802358767483385,
-                -1.0000011920928956,
-                0.0,
-                1.0,
-                -0.0000032782554626464845,
-                -0.0003358125686645508,
-                0.0,
-                0.05736202001571655,
-                0.000013113021850585938,
-                0.000005245208740234375,
-                1.0
-            ],
             "parent": "208",
             "components": [
                 {
                     "type": "hand-pose"
                 }
+            ],
+            "translation": [
+                0.057362,
+                0.0000131,
+                0.0000052
+            ],
+            "rotation": [
+                -0.5000838,
+                0.500084,
+                -0.4999176,
+                0.4999144
+            ],
+            "scaling": [
+                1.0000016,
+                1.0000011,
+                1.0
             ]
         },
         "379": {
@@ -4198,24 +1227,6 @@
                 "name": "r_handMeshNode<Armature",
                 "file": "r_hand.glb"
             },
-            "transformation": [
-                1.0,
-                4.2351647362715049e-22,
-                -7.105427357601002e-15,
-                0.0,
-                -4.235165241142481e-22,
-                1.000000238418579,
-                7.105427357601002e-15,
-                0.0,
-                7.105427357601002e-15,
-                -7.1054256635351069e-15,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.000003814697265625,
-                1.0
-            ],
             "components": [
                 {
                     "mesh": {
@@ -4226,7 +1237,23 @@
                 }
             ],
             "parent": "378",
-            "skin": "405"
+            "skin": "405",
+            "translation": [
+                0.0,
+                0.0,
+                0.0000038
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                1.0,
+                1.0000002,
+                1.0
+            ]
         },
         "380": {
             "link": {
@@ -4235,23 +1262,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                1.0000015497207642,
-                0.0000025034632926690394,
-                -1.779708327376284e-7,
-                0.0,
-                -0.000002533202177801286,
-                1.0000017881393433,
-                0.000001788197209862119,
-                0.0,
-                2.384217623330187e-7,
-                -0.0000017286153024542728,
-                0.9999996423721314,
-                0.0,
-                -0.0000019669532775878908,
-                -2.9802322387695329e-8,
-                -0.000003814697265625,
+            "translation": [
+                -0.0000019,
+                -2.9802322387695313e-8,
+                -0.0000038
+            ],
+            "rotation": [
+                8.940968996284937e-7,
+                8.898639691778953e-8,
+                0.0000012,
                 1.0
+            ],
+            "scaling": [
+                1.0000015,
+                1.0000017,
+                0.9999996
             ]
         },
         "381": {
@@ -4261,23 +1286,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                -0.07331297546625138,
-                0.8619972467422485,
-                -0.5015931725502014,
-                0.0,
-                -0.8518113493919373,
-                0.20745842158794404,
-                0.4810217320919037,
-                0.0,
-                0.5186983942985535,
-                0.4625293910503388,
-                0.7190502882003784,
-                0.0,
-                -0.028029263019561769,
-                -0.01621401309967041,
-                -0.03301194682717323,
-                1.0
+            "translation": [
+                -0.0280292,
+                -0.016214,
+                -0.0330119
+            ],
+            "rotation": [
+                0.0067934,
+                0.3747417,
+                0.6294639,
+                0.6806596
+            ],
+            "scaling": [
+                1.0000048,
+                1.0000017,
+                1.0000073
             ]
         },
         "382": {
@@ -4287,23 +1310,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.15280534327030186,
-                0.8662787079811096,
-                -0.4756295084953308,
-                0.0,
-                -0.7464810609817505,
-                0.41656360030174258,
-                0.5188758373260498,
-                0.0,
-                0.647620677947998,
-                0.2757626175880432,
-                0.7103151082992554,
-                0.0,
-                -0.044955551624298099,
-                -0.03137552738189697,
-                -0.05626659840345383,
-                1.0
+            "translation": [
+                -0.0449555,
+                -0.0313755,
+                -0.0562665
+            ],
+            "rotation": [
+                0.0805099,
+                0.3719701,
+                0.5340748,
+                0.7549307
+            ],
+            "scaling": [
+                1.0000058,
+                0.9999956,
+                1.0000025
             ]
         },
         "383": {
@@ -4313,23 +1334,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                -0.053726911544799808,
-                0.8891241550445557,
-                -0.4545338451862335,
-                0.0,
-                -0.6723019480705261,
-                0.3043557405471802,
-                0.6748234629631043,
-                0.0,
-                0.7383315563201904,
-                0.34183722734451296,
-                0.5814011693000794,
-                0.0,
-                -0.06691449880599976,
-                -0.04076647758483887,
-                -0.08016461133956909,
-                1.0
+            "translation": [
+                -0.0669144,
+                -0.0407664,
+                -0.0801646
+            ],
+            "rotation": [
+                0.1230075,
+                0.4406481,
+                0.5767948,
+                0.6767614
+            ],
+            "scaling": [
+                1.0000146,
+                1.0000045,
+                1.0000066
             ]
         },
         "384": {
@@ -4339,23 +1358,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                -0.05954299122095108,
-                0.8813999891281128,
-                -0.4686087965965271,
-                0.0,
-                -0.6722092628479004,
-                0.3116418719291687,
-                0.6715748310089111,
-                0.0,
-                0.7379644513130188,
-                0.3549925982952118,
-                0.5739307403564453,
-                0.0,
-                -0.07789826393127442,
-                -0.0459895133972168,
-                -0.08871868997812271,
-                1.0
+            "translation": [
+                -0.0778982,
+                -0.0459895,
+                -0.0887186
+            ],
+            "rotation": [
+                0.1171406,
+                0.4464461,
+                0.5748541,
+                0.6756528
+            ],
+            "scaling": [
+                1.0000027,
+                0.9999993,
+                1.0000038
             ]
         },
         "385": {
@@ -4365,23 +1382,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.9922702312469482,
-                0.01749398931860924,
-                -0.12285643070936205,
-                0.0,
-                -0.04245205596089363,
-                0.9781360030174257,
-                -0.20359160006046296,
-                0.0,
-                0.11660809814929962,
-                0.20723341405391697,
-                0.9713153839111328,
-                0.0,
-                -0.01588374376296997,
-                -0.006466031074523926,
-                -0.026272129267454149,
-                1.0
+            "translation": [
+                -0.0158837,
+                -0.006466,
+                -0.0262721
+            ],
+            "rotation": [
+                -0.1034626,
+                0.0603071,
+                0.0150969,
+                0.9926885
+            ],
+            "scaling": [
+                0.9999999,
+                1.0000008,
+                0.9999983
             ]
         },
         "386": {
@@ -4391,23 +1406,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.9978606700897216,
-                0.06410903483629227,
-                0.012793336063623429,
-                0.0,
-                -0.06260817497968674,
-                0.9934924840927124,
-                -0.09514950215816498,
-                0.0,
-                -0.01880992390215397,
-                0.09414523839950562,
-                0.995380997657776,
-                0.0,
-                -0.023552298545837404,
-                -0.0043877363204956059,
-                -0.08560924977064133,
-                1.0
+            "translation": [
+                -0.0235522,
+                -0.0043877,
+                -0.0856092
+            ],
+            "rotation": [
+                -0.0474022,
+                -0.0079139,
+                0.031732,
+                0.9983403
+            ],
+            "scaling": [
+                0.9999997,
+                1.0000002,
+                1.0000002
             ]
         },
         "387": {
@@ -4417,23 +1430,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.9986552596092224,
-                0.010424502193927764,
-                0.050820592790842059,
-                0.0,
-                -0.005651823244988918,
-                0.995634138584137,
-                -0.0931655615568161,
-                0.0,
-                -0.05156952142715454,
-                0.09275289624929428,
-                0.9943500757217408,
-                0.0,
-                -0.0220220685005188,
-                -0.007655024528503418,
-                -0.1308118849992752,
-                1.0
+            "translation": [
+                -0.022022,
+                -0.007655,
+                -0.1308118
+            ],
+            "rotation": [
+                -0.0465457,
+                -0.025634,
+                0.0040248,
+                0.998579
+            ],
+            "scaling": [
+                1.0000017,
+                0.9999995,
+                0.9999973
             ]
         },
         "388": {
@@ -4443,23 +1454,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.9945691227912904,
-                -0.017070941627025605,
-                0.10267455875873566,
-                0.0,
-                0.011435767635703089,
-                0.9984074234962465,
-                0.055223241448402408,
-                0.0,
-                -0.10345276445150376,
-                -0.0537489578127861,
-                0.9931738376617432,
-                0.0,
-                -0.02069246768951416,
-                -0.009881138801574709,
-                -0.15497684478759769,
-                1.0
+            "translation": [
+                -0.0206924,
+                -0.0098811,
+                -0.1549768
+            ],
+            "rotation": [
+                0.0272903,
+                -0.0516214,
+                -0.007139,
+                0.9982682
+            ],
+            "scaling": [
+                1.0000005,
+                0.9999988,
+                0.9999928
             ]
         },
         "389": {
@@ -4469,23 +1478,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.9920369386672974,
-                -0.019486472010612489,
-                0.1244298443198204,
-                0.0,
-                0.012765958905220032,
-                0.9984280467033386,
-                0.05458059534430504,
-                0.0,
-                -0.1252972036600113,
-                -0.05255753174424172,
-                0.9907242655754088,
-                0.0,
-                -0.01942199468612671,
-                -0.009284496307373049,
-                -0.16647480428218842,
-                1.0
+            "translation": [
+                -0.0194219,
+                -0.0092844,
+                -0.1664748
+            ],
+            "rotation": [
+                0.0268477,
+                -0.0625792,
+                -0.0080821,
+                0.9976461
+            ],
+            "scaling": [
+                0.9999998,
+                1.0000002,
+                0.999998
             ]
         },
         "390": {
@@ -4495,23 +1502,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.9909882545471193,
-                -0.12719042599201206,
-                -0.0419979952275753,
-                0.0,
-                0.11414775252342224,
-                0.9659883975982666,
-                -0.2320299744606018,
-                0.0,
-                0.07008148729801178,
-                0.2251458615064621,
-                0.9718028903007508,
-                0.0,
-                -0.003258943557739258,
-                -0.006473183631896973,
-                -0.026166055351495744,
-                1.0
+            "translation": [
+                -0.0032589,
+                -0.0064731,
+                -0.026166
+            ],
+            "rotation": [
+                -0.115325,
+                0.0282727,
+                -0.0608791,
+                0.9910572
+            ],
+            "scaling": [
+                0.9999994,
+                1.0000005,
+                1.0000014
             ]
         },
         "391": {
@@ -4521,23 +1526,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.9949488043785096,
-                -0.013324039988219738,
-                0.09949445724487305,
-                0.0,
-                0.02385139837861061,
-                0.9941455721855164,
-                -0.10538247227668762,
-                0.0,
-                -0.0975075736641884,
-                0.1072235256433487,
-                0.9894418120384216,
-                0.0,
-                -0.0017247200012207032,
-                0.0003745555877685547,
-                -0.08871076256036759,
-                1.0
+            "translation": [
+                -0.0017247,
+                0.0003745,
+                -0.0887107
+            ],
+            "rotation": [
+                -0.0532946,
+                -0.0493832,
+                -0.0093189,
+                0.9973134
+            ],
+            "scaling": [
+                0.9999998,
+                0.9999998,
+                0.9999998
             ]
         },
         "392": {
@@ -4547,23 +1550,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.9894905090332032,
-                -0.02990570291876793,
-                0.14146439731121064,
-                0.0,
-                0.04330075904726982,
-                0.994762361049652,
-                -0.092580184340477,
-                0.0,
-                -0.13795426487922669,
-                0.09773287177085877,
-                0.9856017827987672,
-                0.0,
-                0.002641558647155762,
-                -0.004127979278564453,
-                -0.13517628610134126,
-                1.0
+            "translation": [
+                0.0026415,
+                -0.0041279,
+                -0.1351762
+            ],
+            "rotation": [
+                -0.0477585,
+                -0.0701195,
+                -0.018371,
+                0.9962252
+            ],
+            "scaling": [
+                0.9999989,
+                0.9999991,
+                0.9999969
             ]
         },
         "393": {
@@ -4573,23 +1574,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.9864785671234132,
-                -0.10033827275037766,
-                0.12958858907222749,
-                0.0,
-                0.08767414093017578,
-                0.991116464138031,
-                0.09999171644449234,
-                0.0,
-                -0.13846978545188905,
-                -0.08727820217609406,
-                0.986510694026947,
-                0.0,
-                0.005689799785614014,
-                -0.006910443305969238,
-                -0.16241732239723206,
-                1.0
+            "translation": [
+                0.0056897,
+                -0.0069104,
+                -0.1624173
+            ],
+            "rotation": [
+                0.0470289,
+                -0.0673174,
+                -0.0472155,
+                0.9955035
+            ],
+            "scaling": [
+                1.0000004,
+                0.9999984,
+                0.9999973
             ]
         },
         "394": {
@@ -4599,23 +1598,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.9876349568367004,
-                -0.10435634106397628,
-                0.1169791892170906,
-                0.0,
-                0.09307802468538284,
-                0.9908194541931152,
-                0.09805745631456377,
-                0.0,
-                -0.12613581120967866,
-                -0.0859556496143341,
-                0.9882654547691344,
-                0.0,
-                0.007302224636077881,
-                -0.005901813507080078,
-                -0.17446863651275636,
-                1.0
+            "translation": [
+                0.0073022,
+                -0.0059018,
+                -0.1744686
+            ],
+            "rotation": [
+                0.046196,
+                -0.0610337,
+                -0.0495652,
+                0.9958333
+            ],
+            "scaling": [
+                0.9999985,
+                1.0000009,
+                0.9999836
             ]
         },
         "395": {
@@ -4625,23 +1622,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.9648942947387696,
-                -0.22694191336631776,
-                0.1322010308504105,
-                0.0,
-                0.2518428564071655,
-                0.9423080682754516,
-                -0.2205256074666977,
-                0.0,
-                -0.07452727854251862,
-                0.24607805907726289,
-                0.9663798809051514,
-                0.0,
-                0.008265256881713868,
-                -0.006486177444458008,
-                -0.024050310254096986,
-                1.0
+            "translation": [
+                0.0082652,
+                -0.0064861,
+                -0.0240503
+            ],
+            "rotation": [
+                -0.1185389,
+                -0.0525187,
+                -0.1216339,
+                0.9840708
+            ],
+            "scaling": [
+                1.0000003,
+                1.0000003,
+                0.9999993
             ]
         },
         "396": {
@@ -4651,23 +1646,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.9668360352516174,
-                -0.08966974169015885,
-                0.2391415685415268,
-                0.0,
-                0.11445793509483338,
-                0.9891742467880248,
-                -0.0918433889746666,
-                0.0,
-                -0.22831891477108005,
-                0.11617067456245424,
-                0.96664297580719,
-                0.0,
-                0.017467141151428224,
-                -0.003597855567932129,
-                -0.08175399154424668,
-                1.0
+            "translation": [
+                0.0174671,
+                -0.0035978,
+                -0.0817539
+            ],
+            "rotation": [
+                -0.0525133,
+                -0.1180112,
+                -0.0515327,
+                0.9902828
+            ],
+            "scaling": [
+                1.0000005,
+                1.0000007,
+                1.0000119
             ]
         },
         "397": {
@@ -4677,23 +1670,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.9468036890029908,
-                -0.15219919383525849,
-                0.2835423052310944,
-                0.0,
-                0.18135009706020356,
-                0.980205535888672,
-                -0.07941414415836334,
-                0.0,
-                -0.265843152999878,
-                0.12661077082157136,
-                0.9556666016578674,
-                0.0,
-                0.0267598032951355,
-                -0.007975935935974121,
-                -0.12337397038936617,
-                1.0
+            "translation": [
+                0.0267598,
+                -0.0079759,
+                -0.1233739
+            ],
+            "rotation": [
+                -0.0522784,
+                -0.1394062,
+                -0.084638,
+                0.9852254
+            ],
+            "scaling": [
+                0.9999989,
+                0.9999986,
+                1.0000007
             ]
         },
         "398": {
@@ -4703,23 +1694,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.9650822281837465,
-                -0.1710297018289566,
-                0.198408842086792,
-                0.0,
-                0.1806894987821579,
-                0.98303484916687,
-                -0.031515564769506457,
-                0.0,
-                -0.18965192139148713,
-                0.06626559793949127,
-                0.9796113967895508,
-                0.0,
-                0.03319871425628662,
-                -0.011283636093139649,
-                -0.14894579350948337,
-                1.0
+            "translation": [
+                0.0331987,
+                -0.0112836,
+                -0.1489457
+            ],
+            "rotation": [
+                -0.024669,
+                -0.0979038,
+                -0.0887352,
+                0.990925
+            ],
+            "scaling": [
+                1.0000004,
+                0.9999997,
+                0.9999986
             ]
         },
         "399": {
@@ -4729,23 +1718,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.9639718532562256,
-                -0.17798911035060886,
-                0.19768182933330537,
-                0.0,
-                0.188138484954834,
-                0.9815657734870912,
-                -0.03365560248494148,
-                0.0,
-                -0.1880467385053635,
-                0.06963475048542023,
-                0.9796878099441528,
-                0.0,
-                0.03552919626235962,
-                -0.012063860893249512,
-                -0.1606295704841614,
-                1.0
+            "translation": [
+                0.0355291,
+                -0.0120638,
+                -0.1606295
+            ],
+            "rotation": [
+                -0.0260673,
+                -0.0973464,
+                -0.0923998,
+                0.9906091
+            ],
+            "scaling": [
+                0.9999999,
+                1.0,
+                0.9999994
             ]
         },
         "400": {
@@ -4755,23 +1742,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.8736851811408997,
-                -0.4042328596115113,
-                0.2706848084926605,
-                0.0,
-                0.4126688241958618,
-                0.910460889339447,
-                0.0276840478181839,
-                0.0,
-                -0.2576377987861634,
-                0.08751619607210159,
-                0.9622694849967957,
-                0.0,
-                0.02299636602401734,
-                -0.006468772888183594,
-                -0.031132813543081285,
-                1.0
+            "translation": [
+                0.0229963,
+                -0.0064687,
+                -0.0311328
+            ],
+            "rotation": [
+                -0.0154557,
+                -0.1364777,
+                -0.2110243,
+                0.9677828
+            ],
+            "scaling": [
+                1.0000001,
+                1.0000004,
+                0.9999994
             ]
         },
         "401": {
@@ -4781,23 +1766,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.9445620775222778,
-                -0.2246157079935074,
-                0.23947808146476744,
-                0.0,
-                0.25138381123542788,
-                0.9639323353767396,
-                -0.08741684257984162,
-                0.0,
-                -0.21120446920394896,
-                0.1427716463804245,
-                0.9669567942619324,
-                0.0,
-                0.03505891561508179,
-                -0.010765790939331057,
-                -0.07095353305339813,
-                1.0
+            "translation": [
+                0.0350589,
+                -0.0107657,
+                -0.0709535
+            ],
+            "rotation": [
+                -0.0584644,
+                -0.114467,
+                -0.1208971,
+                0.9843084
+            ],
+            "scaling": [
+                0.9999997,
+                1.0000004,
+                0.9999982
             ]
         },
         "402": {
@@ -4807,23 +1790,21 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.8950688242912293,
-                -0.2838991582393646,
-                0.3438803851604462,
-                0.0,
-                0.3133914172649384,
-                0.9490787386894226,
-                -0.03217846155166626,
-                0.0,
-                -0.3172328472137451,
-                0.1365712583065033,
-                0.9384610652923584,
-                0.0,
-                0.04236811399459839,
-                -0.015212297439575196,
-                -0.10445883125066756,
-                1.0
+            "translation": [
+                0.0423681,
+                -0.0152122,
+                -0.1044588
+            ],
+            "rotation": [
+                -0.0433826,
+                -0.1699616,
+                -0.1535538,
+                0.9724465
+            ],
+            "scaling": [
+                1.0000002,
+                1.0,
+                0.9999987
             ]
         },
         "403": {
@@ -4833,22 +1814,20 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.9236742854118348,
-                -0.2910597622394562,
-                0.2492119073867798,
-                0.0,
-                0.2978430688381195,
-                0.9545432925224304,
-                0.010905366390943528,
-                0.0,
-                -0.24105963110923768,
-                0.06415390223264694,
-                0.9683876037597656,
-                0.0,
-                0.04895919561386109,
-                -0.018079280853271489,
-                -0.12345755100250244,
+            "translation": [
+                0.0489591,
+                -0.0180792,
+                -0.1234575
+            ],
+            "rotation": [
+                -0.0135747,
+                -0.1249879,
+                -0.1501334,
+                0.9806394
+            ],
+            "scaling": [
+                0.9999982,
+                0.9999911,
                 1.0
             ]
         },
@@ -4859,73 +1838,22 @@
             },
             "parent": "378",
             "skin": "405",
-            "transformation": [
-                0.906955897808075,
-                -0.29033923149108889,
-                0.3051765263080597,
-                0.0,
-                0.30161571502685549,
-                0.9533701539039612,
-                0.010640463791787625,
-                0.0,
-                -0.2940346896648407,
-                0.08239579200744629,
-                0.9522353410720824,
-                0.0,
-                0.0519370436668396,
-                -0.018861889839172365,
-                -0.13495931029319764,
-                1.0
+            "translation": [
+                0.051937,
+                -0.0188618,
+                -0.1349593
+            ],
+            "rotation": [
+                -0.0183743,
+                -0.1534413,
+                -0.1515832,
+                0.9762892
+            ],
+            "scaling": [
+                0.9999992,
+                0.9999999,
+                0.9999988
             ]
-        },
-        "407": {
-            "name": "Mesh",
-            "parent": "201",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "8",
-                        "material": "408"
-                    }
-                },
-                {
-                    "type": "collision"
-                }
-            ],
-            "transformation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.009999999776482582,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                4.768372718899627e-7,
-                2.677216053009033,
-                0.00003761053085327149,
-                1.0
-            ],
-            "deleted": true
-        },
-        "410": {
-            "link": {
-                "name": "Cube",
-                "file": "button.glb"
-            },
-            "components": [
-                {
-                    "mesh": {
-                        "material": "22"
-                    }
-                }
-            ],
-            "deleted": true
         },
         "416": {
             "link": {
@@ -4933,25 +1861,23 @@
                 "file": "wonderland-logo.glb"
             },
             "parent": "198",
-            "transformation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                3.576278686523438e-7,
-                0.9999999403953552,
-                0.0,
-                0.0,
-                -0.9999999403953552,
-                3.576278686523438e-7,
-                0.0,
-                0.976919412612915,
-                0.766991138458252,
-                -0.6471176147460938,
-                1.0
+            "name": "Wonderland-Logo",
+            "translation": [
+                0.9769194,
+                0.7669911,
+                -0.6471176
             ],
-            "name": "Wonderland-Logo"
+            "rotation": [
+                0.7071066,
+                0.0,
+                0.0,
+                0.7071068
+            ],
+            "scaling": [
+                1.0,
+                0.9999999,
+                0.9999999
+            ]
         },
         "419": {
             "name": "Platform",
@@ -4964,25 +1890,23 @@
                     }
                 }
             ],
-            "transformation": [
-                0.019999999552965165,
+            "parent": "15",
+            "translation": [
                 0.0,
-                0.0,
-                0.0,
-                0.0,
-                -8.096690606862469e-8,
-                0.00019999995129182935,
-                0.0,
-                0.0,
-                -0.01999999023973942,
-                -0.00000809669290902093,
-                0.0,
-                0.0,
-                -0.02759944833815098,
-                -0.00001117321789934067,
-                1.0
+                -0.0275994,
+                -0.0000111
             ],
-            "parent": "15"
+            "rotation": [
+                0.7072499,
+                0.0,
+                0.0,
+                0.7069636
+            ],
+            "scaling": [
+                0.0199999,
+                0.0001999,
+                0.0199999
+            ]
         }
     },
     "meshes": {
@@ -5066,7 +1990,7 @@
     "textures": {
         "13": {
             "link": {
-                "name": "DefaultFont",
+                "name": "DefaultTexture",
                 "file": "default"
             },
             "name": "DefaultFont",
@@ -5076,7 +2000,7 @@
     "images": {
         "f0": {
             "link": {
-                "name": "DefaultFontImage",
+                "name": "DefaultImage",
                 "file": "default"
             }
         }
@@ -5088,41 +2012,43 @@
                 "file": "default"
             },
             "name": "Text",
-            "DistanceFieldVector": {
+            "pipeline": "444",
+            "Text": {
                 "color": [
                     1.0,
-                    0.9999899864196776,
-                    0.9999960064888,
+                    0.9999899,
+                    0.999996,
                     1.0
                 ],
-                "vectorTexture": "13",
-                "outlineRange": [
-                    0.5,
-                    4.75
-                ]
-            },
-            "pipeline": "420"
+                "font": "450"
+            }
         },
         "20": {
             "name": "White",
             "Phong": {
                 "specularColor": [
-                    9.999899930335233e-7,
+                    9.999899930335232e-7,
                     9.99993744699168e-7,
-                    9.999999974752428e-7,
+                    9.999999974752427e-7,
                     1.0
                 ],
                 "shininess": 1,
                 "ambientColor": [
-                    0.843137264251709,
-                    0.843137264251709,
-                    0.843137264251709,
+                    0.05,
+                    0.05,
+                    0.05,
                     1.0
                 ],
                 "diffuseColor": [
-                    0.1254901885986328,
-                    0.12548893690109254,
-                    0.12548893690109254,
+                    0.1254901,
+                    0.1254889,
+                    0.1254889,
+                    1.0
+                ],
+                "emissiveColor": [
+                    0.8431372,
+                    0.8431372,
+                    0.8431372,
                     1.0
                 ]
             },
@@ -5132,22 +2058,28 @@
             "name": "Pink",
             "Phong": {
                 "diffuseColor": [
-                    0.9098039269447328,
+                    0.9098039,
                     0.0,
-                    0.5411764979362488,
+                    0.5411764,
                     0.0
                 ],
                 "specularColor": [
-                    9.999899930335233e-7,
-                    9.999911299019005e-7,
-                    9.999999974752428e-7,
+                    9.999899930335232e-7,
+                    9.999911299019004e-7,
+                    9.999999974752427e-7,
                     1.0
                 ],
                 "shininess": 10,
                 "ambientColor": [
-                    0.3176470398902893,
+                    0.05,
+                    0.05,
+                    0.05,
+                    1.0
+                ],
+                "emissiveColor": [
+                    0.317647,
                     0.0,
-                    0.2165777683258057,
+                    0.2165777,
                     1.0
                 ]
             }
@@ -5157,19 +2089,25 @@
             "Phong": {
                 "diffuseColor": [
                     1.0,
-                    0.8039215803146362,
+                    0.8039215,
                     0.0,
                     1.0
                 ],
                 "specularColor": [
-                    9.999999974752428e-7,
-                    9.999899930335233e-7,
-                    9.999899930335233e-7,
+                    9.999999974752427e-7,
+                    9.999899930335232e-7,
+                    9.999899930335232e-7,
                     1.0
                 ],
                 "ambientColor": [
-                    0.384313702583313,
-                    0.3089579045772553,
+                    0.05,
+                    0.05,
+                    0.05,
+                    1.0
+                ],
+                "emissiveColor": [
+                    0.3843137,
+                    0.3089579,
                     0.0,
                     1.0
                 ]
@@ -5179,21 +2117,27 @@
             "name": "Green",
             "Phong": {
                 "diffuseColor": [
-                    0.15294118225574494,
-                    0.7882353067398071,
-                    0.5411764979362488,
+                    0.1529411,
+                    0.7882353,
+                    0.5411764,
                     1.0
                 ],
                 "specularColor": [
-                    9.999999974752428e-7,
-                    9.999899930335233e-7,
-                    9.999899930335233e-7,
+                    9.999999974752427e-7,
+                    9.999899930335232e-7,
+                    9.999899930335232e-7,
                     1.0
                 ],
                 "ambientColor": [
+                    0.05,
+                    0.05,
+                    0.05,
+                    1.0
+                ],
+                "emissiveColor": [
                     0.0,
-                    0.23529410362243653,
-                    0.1437908560037613,
+                    0.2352941,
+                    0.1437908,
                     1.0
                 ]
             }
@@ -5205,9 +2149,15 @@
             },
             "Phong": {
                 "diffuseColor": [
-                    0.9764705896377564,
-                    0.9764608144760132,
-                    0.9764608144760132,
+                    0.9764705,
+                    0.9764608,
+                    0.9764608,
+                    1.0
+                ],
+                "ambientColor": [
+                    0.05,
+                    0.05,
+                    0.05,
                     1.0
                 ]
             }
@@ -5216,6 +2166,14 @@
             "link": {
                 "name": "lambert2",
                 "file": "r_hand.glb"
+            },
+            "Phong": {
+                "ambientColor": [
+                    0.05,
+                    0.05,
+                    0.05,
+                    1.0
+                ]
             }
         },
         "199": {
@@ -5224,52 +2182,62 @@
                 "file": "default"
             },
             "name": "TextAccent",
-            "DistanceFieldVector": {
+            "Text": {
                 "color": [
-                    0.9098039269447328,
+                    0.9098039,
                     0.0,
-                    0.5411764979362488,
+                    0.5411764,
                     1.0
                 ],
-                "vectorTexture": "13",
-                "outlineRange": [
-                    0.4000000059604645,
-                    0.4000000059604645
-                ],
-                "outlineColor": [
+                "effectColor": [
                     0.0,
                     0.0,
                     0.0,
                     0.0
-                ]
+                ],
+                "font": "450"
             }
         },
         "295": {
             "link": {
                 "name": "Default_Material",
                 "file": "l_hand.glb"
+            },
+            "Phong": {
+                "ambientColor": [
+                    0.05,
+                    0.05,
+                    0.05,
+                    1.0
+                ]
             }
         },
         "406": {
             "name": "Buttons",
             "Phong": {
                 "specularColor": [
-                    9.999899930335233e-7,
+                    9.999899930335232e-7,
                     9.99993744699168e-7,
-                    9.999999974752428e-7,
+                    9.999999974752427e-7,
                     1.0
                 ],
                 "shininess": 1,
                 "ambientColor": [
-                    0.10588234663009644,
-                    0.10588128864765169,
-                    0.10588128864765169,
+                    0.05,
+                    0.05,
+                    0.05,
                     1.0
                 ],
                 "diffuseColor": [
-                    0.07058823108673096,
-                    0.07058752328157425,
-                    0.07058752328157425,
+                    0.0705882,
+                    0.0705875,
+                    0.0705875,
+                    1.0
+                ],
+                "emissiveColor": [
+                    0.1058823,
+                    0.1058812,
+                    0.1058812,
                     1.0
                 ]
             },
@@ -5283,22 +2251,22 @@
             "name": "TextAccent",
             "DistanceFieldVector": {
                 "color": [
-                    0.9098039269447328,
+                    0.9098039,
                     0.0,
-                    0.5411764979362488,
+                    0.5411764,
                     1.0
                 ],
                 "vectorTexture": "13",
                 "outlineRange": [
-                    0.4000000059604645,
-                    0.4000000059604645
+                    0.4,
+                    0.4
                 ]
             },
             "MeshVisualizer": {
                 "color": [
-                    0.501960813999176,
-                    0.501960813999176,
-                    0.501960813999176,
+                    0.5019608,
+                    0.5019608,
+                    0.5019608,
                     0.0
                 ],
                 "wireframeColor": [
@@ -5316,26 +2284,22 @@
                 "file": "default"
             },
             "name": "TextBlack",
-            "DistanceFieldVector": {
+            "pipeline": "444",
+            "Text": {
                 "color": [
-                    9.999999974752428e-7,
-                    9.999899930335233e-7,
-                    9.999959047490848e-7,
+                    9.999999974752427e-7,
+                    9.999899930335232e-7,
+                    9.999959047490847e-7,
                     1.0
                 ],
-                "vectorTexture": "13",
-                "outlineRange": [
-                    0.5,
-                    4.75
-                ],
-                "outlineColor": [
+                "effectColor": [
                     0.0,
                     0.0,
                     0.0,
                     0.0
-                ]
-            },
-            "pipeline": "420"
+                ],
+                "font": "450"
+            }
         },
         "412": {
             "link": {
@@ -5344,17 +2308,17 @@
             },
             "Phong": {
                 "diffuseColor": [
-                    0.9098039269447328,
+                    0.9098039,
                     0.0,
-                    0.5411764979362488,
+                    0.5411764,
                     1.0
                 ]
             },
             "Flat": {
                 "color": [
-                    9.999999974752428e-7,
-                    9.999899930335233e-7,
-                    9.999899930335233e-7,
+                    9.999999974752427e-7,
+                    9.999899930335232e-7,
+                    9.999899930335232e-7,
                     1.0
                 ]
             },
@@ -5367,17 +2331,17 @@
             },
             "Phong": {
                 "diffuseColor": [
-                    9.999999974752428e-7,
-                    9.999899930335233e-7,
-                    9.999899930335233e-7,
+                    9.999999974752427e-7,
+                    9.999899930335232e-7,
+                    9.999899930335232e-7,
                     1.0
                 ]
             },
             "Flat": {
                 "color": [
-                    0.9098039269447328,
+                    0.9098039,
                     0.0,
-                    0.5411764979362488,
+                    0.5411764,
                     1.0
                 ]
             },
@@ -5387,49 +2351,97 @@
     "shaders": {
         "419": {
             "link": {
-                "name": "DistanceFieldVector",
+                "name": "DistanceFieldVector.frag",
                 "file": "default"
             }
         },
         "421": {
             "link": {
-                "name": "Dynamic",
+                "name": "Dynamic.vert",
                 "file": "default"
             }
         },
         "422": {
             "link": {
-                "name": "Flat",
+                "name": "Flat.frag",
                 "file": "default"
             }
         },
         "425": {
             "link": {
-                "name": "MeshVisualizer",
+                "name": "MeshVisualizer.frag",
                 "file": "default"
             }
         },
         "427": {
             "link": {
-                "name": "Particle",
+                "name": "Particle.frag",
                 "file": "default"
             }
         },
         "429": {
             "link": {
-                "name": "Phong",
+                "name": "Phong.frag",
                 "file": "default"
             }
         },
         "432": {
             "link": {
-                "name": "Skinning",
+                "name": "Skinning.vert",
                 "file": "default"
             }
         },
         "433": {
             "link": {
-                "name": "Static",
+                "name": "Static.frag",
+                "file": "default"
+            }
+        },
+        "435": {
+            "link": {
+                "name": "Background.frag",
+                "file": "default"
+            }
+        },
+        "436": {
+            "link": {
+                "name": "Depth.frag",
+                "file": "default"
+            }
+        },
+        "438": {
+            "link": {
+                "name": "FullScreenTriangle.vert",
+                "file": "default"
+            }
+        },
+        "439": {
+            "link": {
+                "name": "Physical.frag",
+                "file": "default"
+            }
+        },
+        "442": {
+            "link": {
+                "name": "Sky.frag",
+                "file": "default"
+            }
+        },
+        "443": {
+            "link": {
+                "name": "Text.frag",
+                "file": "default"
+            }
+        },
+        "445": {
+            "link": {
+                "name": "Text.vert",
+                "file": "default"
+            }
+        },
+        "446": {
+            "link": {
+                "name": "TileFeedback.frag",
                 "file": "default"
             }
         }
@@ -5438,9 +2450,9 @@
         "project": {
             "name": "HandPoser",
             "version": [
+                1,
                 0,
-                8,
-                5
+                0
             ]
         },
         "vr": {
@@ -5449,21 +2461,20 @@
         },
         "scripting": {
             "sourcePaths": [
-                "/js/editor-components-bundle.js",
-                "js/",
-                "bundle.js"
+                "js/"
             ],
-            "useInternalBundler": false
+            "libraryPaths": [
+                "/js/lib/"
+            ],
+            "bundlingType": "esbuild"
         },
         "rendering": {
-            "fontCharacters": "abcdefghijklmnopqrstuvwxyz\nABCDEFGHIJKLMNOPQRSTUVWXYZ\n0123456789 \n:-_+*,.!`\"'?°=\\/",
             "clearColor": [
-                0.843137264251709,
-                0.8431288003921509,
-                0.8431288003921509,
+                0.8431372,
+                0.8431288,
+                0.8431288,
                 1.0
-            ],
-            "fontSize": 175.0
+            ]
         }
     },
     "animations": {},
@@ -5473,14 +2484,68 @@
                 "name": "Armature",
                 "file": "l_hand.glb"
             },
-            "name": "HandLeft"
+            "name": "HandLeft",
+            "joints": [
+                "299",
+                "300",
+                "301",
+                "302",
+                "303",
+                "304",
+                "305",
+                "306",
+                "307",
+                "308",
+                "309",
+                "310",
+                "311",
+                "312",
+                "313",
+                "314",
+                "315",
+                "316",
+                "317",
+                "318",
+                "319",
+                "320",
+                "321",
+                "322",
+                "323"
+            ]
         },
         "116": {
             "link": {
                 "name": "Armature",
                 "file": "r_hand.glb"
             },
-            "name": "HandRight"
+            "name": "HandRight",
+            "joints": [
+                "325",
+                "326",
+                "327",
+                "328",
+                "329",
+                "330",
+                "331",
+                "332",
+                "333",
+                "334",
+                "335",
+                "336",
+                "337",
+                "338",
+                "339",
+                "340",
+                "341",
+                "342",
+                "343",
+                "344",
+                "345",
+                "346",
+                "347",
+                "348",
+                "349"
+            ]
         },
         "289": {
             "link": {
@@ -5607,6 +2672,9 @@
             "link": {
                 "name": "Flat Opaque Textured",
                 "file": "default"
+            },
+            "features": {
+                "ALPHA_MASKED": true
             }
         },
         "426": {
@@ -5625,12 +2693,18 @@
             "link": {
                 "name": "Phong Opaque",
                 "file": "default"
+            },
+            "features": {
+                "WITH_EMISSIVE": true
             }
         },
         "431": {
             "link": {
                 "name": "Phong Opaque Textured",
                 "file": "default"
+            },
+            "features": {
+                "ALPHA_MASKED": true
             }
         },
         "434": {
@@ -5638,6 +2712,61 @@
                 "name": "Foliage",
                 "file": "default"
             }
+        },
+        "437": {
+            "link": {
+                "name": "Depth",
+                "file": "default"
+            }
+        },
+        "440": {
+            "link": {
+                "name": "Physical Opaque",
+                "file": "default"
+            }
+        },
+        "441": {
+            "link": {
+                "name": "Physical Opaque Textured",
+                "file": "default"
+            },
+            "features": {
+                "ALPHA_MASKED": true
+            }
+        },
+        "444": {
+            "link": {
+                "name": "Text",
+                "file": "default"
+            }
+        },
+        "447": {
+            "link": {
+                "name": "Phong Normalmapped",
+                "file": "default"
+            }
+        },
+        "448": {
+            "link": {
+                "name": "Phong Lightmapped",
+                "file": "default"
+            }
+        },
+        "449": {
+            "link": {
+                "name": "Sky",
+                "file": "default"
+            }
         }
-    }
+    },
+    "fonts": {
+        "450": {
+            "link": {
+                "name": "DejaVuSans.ttf",
+                "file": "default"
+            },
+            "characters": "abcdefghijklmnopqrstuvwxyz\nABCDEFGHIJKLMNOPQRSTUVWXYZ\n0123456789 \n:-_+*,.!`\"'?°=\\/"
+        }
+    },
+    "languages": {}
 }
